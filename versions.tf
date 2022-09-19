@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "hashicorp-learn"
+    organization = "TerraformTrainingOrganization"
 
     workspaces {
       name = "learn-terraform-cloud"
@@ -11,7 +11,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.28.0"
+      version = "4.31.0"
     }
   }
 
