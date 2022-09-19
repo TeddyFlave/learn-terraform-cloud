@@ -1,5 +1,5 @@
 terraform {
-
+/*
   cloud {
     organization = "TerraformTrainingOrganization"
 
@@ -11,7 +11,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "4.31.0"
+      version = "3.28.0"
     }
   }
 
